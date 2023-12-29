@@ -1,5 +1,7 @@
 # NoteAid-README
 
+![Human-ai-loop](https://github.com/seasonyao/NoteAid-README/blob/main/Images/human-ai-loop.png?raw=true)
+
 ## Introduction
 
 The Electronic Health Records (EHRs) disseminated to patients during routine health examinations and following surgical procedures encompass a plethora of technical terminology. The intricate medical lexicon employed by healthcare professionals often proves challenging for the general populace to comprehend. In response to this challenge, we devised a methodology to instruct prevailing Natural Language Processing (NLP) models utilizing an extensive dataset of medical records. Employing an innovative strategy, we formulated comprehensive definitions suitable for training purposes. Additionally, we curated layperson-friendly explanations for the technical terminology found in EHRs through consultation with subject matter experts.
