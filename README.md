@@ -1,5 +1,11 @@
 # NoteAid-README
 
+## Introduction
+
+The Electronic Health Records (EHRs) disseminated to patients during routine health examinations and following surgical procedures encompass a plethora of technical terminology. The intricate medical lexicon employed by healthcare professionals often proves challenging for the general populace to comprehend. In response to this challenge, we devised a methodology to instruct prevailing Natural Language Processing (NLP) models utilizing an extensive dataset of medical records. Employing an innovative strategy, we formulated comprehensive definitions suitable for training purposes. Additionally, we curated layperson-friendly explanations for the technical terminology found in EHRs through consultation with subject matter experts.
+
+## Files
+
 The `Code` folder contains all python notebooks used for this project.
 
 - `Examiner-Augmenter-Examiner.ipynb` is pipeline used to process the input data. We will start with some initial data (jargon term, context, lay definition, UMLS general definition). This is passed through GPT3 to clean the data to find reliable data points. The unreliable data is sent through ChatGPT to find good general definitions. This new dataset is again sent for examination. For further information, you can go through the paper we are writing.
