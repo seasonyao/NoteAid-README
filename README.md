@@ -1,4 +1,4 @@
-# NoteAid-README
+# NoteAid-README: Bridging Medical Jargon and Lay Understanding for Patient Education through Data-Centric NLP
 
 ![Human-ai-loop](https://github.com/seasonyao/NoteAid-README/blob/main/Images/human-ai-loop.png?raw=true)
 
@@ -18,4 +18,18 @@ The `Code` folder contains all python notebooks used for this project.
 - `Multiword-jargon-GenDef` shows how the cases where there are many words in jargon and few words might be non medical terms or do not contain UMLS definitions
 - `Rouge.ipynb` is used to see scores like Rouge score, readability scores of lay definitions and general definitions to analyze the data we have.
 - `sentence_bert.ipynb` is used pick the best general definition from the many available definitions in UMLS for a jargon term. We use the sentenceBERT score between the lay definitions and the available UMLS definitions to pick the best general definition.
- 
+
+## Datsets Links:
+
+Coming soon!
+
+## Citation
+
+```
+@article{yao2023readme,
+  title={README: Bridging Medical Jargon and Lay Understanding for Patient Education through Data-Centric NLP},
+  author={Yao, Zonghai and Kantu, Nandyala Siddharth and Wei, Guanghao and Tran, Hieu and Duan, Zhangqi and Kwon, Sunjae and Yang, Zhichao and Yu, Hong and others},
+  journal={arXiv preprint arXiv:2312.15561},
+  year={2023}
+}
+```
