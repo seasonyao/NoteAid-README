@@ -21,7 +21,9 @@ The `Code` folder contains all python notebooks used for this project.
 
 ## Datsets Links:
 
-Coming soon!
+https://drive.google.com/file/d/1h5CC6FZPhq4hX02CQjtckwScogIMqqDI/view?usp=sharing
+
+The Datasets presented here have the EHR's, jargon terms, lay definitions, general definitions and some other meta data. The Lay definitions presented here are not the ones used in this paper. We have created synthetic lay definitions using GPT-3.5, as the lay definitions use in the paper are proprietary and we do not have license to release it. You can look at synthetic_data_creation.ipynb to see how the new lay definitions are generated.
 
 ## Citation
 
