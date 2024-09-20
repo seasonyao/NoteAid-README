@@ -24,7 +24,7 @@ The `Code` folder contains all python notebooks used for this project.
 
 https://drive.google.com/file/d/1CyaxqtZMFAx0yk9pobFhaFTJ9EPLpi4S/view?usp=sharing
 
-The Datasets presented here have the jargon terms, lay definitions, general definitions and some other meta data. The Lay definitions presented here are not the ones used in this paper. We have created synthetic lay definitions using GPT-3.5, as the lay definitions use in the paper are proprietary and we do not have license to release it. You can look at synthetic_data_creation.ipynb to see how the new lay definitions are generated. Because of licencing we are currently unable to provide the EHR's used as context.
+The Datasets presented here have the jargon terms, lay definitions, general definitions and some other meta data. The Lay definitions presented here are not the ones used in this paper. We have created synthetic lay definitions using GPT-3.5, as the lay definitions use in the paper are proprietary and we do not have license to release it. You can look at synthetic_data_creation.ipynb to see how the new lay definitions are generated. Because of licensing we are currently unable to provide the EHRs used as context. We will be releasing the EHRs after changing them slightly using GPT4-mini soon and post the link here.
 
 - ann_text column is the jargon term
 - split_print(readme_exp, readme_exp_good, readme_exp_bad) and gen_def(readme_syn, readme_syn_good, readme_syn_bad) columns are the general definitions
