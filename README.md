@@ -22,23 +22,23 @@ The `Code` folder contains all python notebooks used for this project.
 
 ## README Dataset:
 
-Hugging Face Link: https://huggingface.co/datasets/bio-nlp-umass/NoteAid-README
+Hugging Face Link: https://huggingface.co/datasets/bio-nlp-umass/NoteAid-README  
 
-The Datasets contains the jargon terms, lay definitions, general definitions for different stages in our REAME pipeline. To comply with fair use of law~\footnote{\url{https://www.copyright.gov/fair-use/}}, We used GPT-3.5 to paraphrase the lay definitions as shown in synthetic_data_creation.ipynb. We used GPT-4o-mini to paraphrase the EHRs as shown in synthetic_EHR_creation.ipynb. We asked the LLM(gpt-4o-mimi) to edit the original sentence but make sure to keep the main terms unchanged. Check that every word in the main terms is in the edited EHR. The meaning of the EHR should remain the same. We also used LLM(gpt-4o-mimi) to verify that the jargon terms are still in the EHRs. Hence, we have a slightly modified EHR with all the jargon terms intact.
+The Datasets contains the jargon terms, lay definitions, general definitions for different stages in our REAME pipeline. To comply with fair use of law~\footnote{\url{https://www.copyright.gov/fair-use/}}, We used GPT-3.5 to paraphrase the lay definitions as shown in synthetic_data_creation.ipynb. We used GPT-4o-mini to paraphrase the EHRs as shown in synthetic_EHR_creation.ipynb. We asked the LLM(gpt-4o-mimi) to edit the original sentence but make sure to keep the main terms unchanged. Check that every word in the main terms is in the edited EHR. The meaning of the EHR should remain the same. We also used LLM(gpt-4o-mimi) to verify that the jargon terms are still in the EHRs. Hence, we have a slightly modified EHR with all the jargon terms intact.  
 
-# Datasets
-The Datasets presented here have jargon terms, lay definitions, general definitions, and EHRs.
-readme_exp - The general definitions are produced from UMLS open-source data.
-readme_exp_good - The general definitions are good for training.
-readme_exp_bad - The general definitions are not good enough for training.
-readme_syn - We used LLMs to generate General definitions
-readme_syn_good - The general definitions are good for training.
-readme_syn_bad - The general definitions are not good for training.
-# Columns
-ann_text column is the jargon term
-split_print(readme_exp, readme_exp_good, readme_exp_bad) and gen_def(readme_syn, readme_syn_good, readme_syn_bad) columns are the general definitions
-gpt_generated is the GPT3.5 generated lay definitions which are slight modifications of the original lay definitions used.
-gpt_text_to_annotate is the GPT4o-mini generated EHRs which are slight modifications of the original EHRs used.
+**Datasets**  
+The Datasets presented here have jargon terms, lay definitions, general definitions, and EHRs.  
+readme_exp - The general definitions are produced from UMLS open-source data.  
+readme_exp_good - The general definitions are good for training.  
+readme_exp_bad - The general definitions are not good enough for training.  
+readme_syn - We used LLMs to generate General definitions  
+readme_syn_good - The general definitions are good for training.  
+readme_syn_bad - The general definitions are not good for training.  
+**Columns**  
+ann_text column is the jargon term  
+split_print(readme_exp, readme_exp_good, readme_exp_bad) and gen_def(readme_syn, readme_syn_good, readme_syn_bad) columns are the general definitions  
+gpt_generated is the GPT3.5 generated lay definitions which are slight modifications of the original lay definitions used.  
+gpt_text_to_annotate is the GPT4o-mini generated EHRs which are slight modifications of the original EHRs used.  
 
 ## Citation
 
